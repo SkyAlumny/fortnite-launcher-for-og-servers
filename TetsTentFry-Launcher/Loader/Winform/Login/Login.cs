@@ -6,6 +6,8 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Diagnostics;
 using Auth;
+using System.Net;
+using System.Net.Http;
 
 namespace tetstentfrylauncher
 {
@@ -102,19 +104,43 @@ namespace tetstentfrylauncher
 
 
 
-        private bool LoginCheck()
+        private bool LoginCheck(string email, string password)
         {
             try
-            {
-                // If your backend has a Authenication api make the request here : )
-                return true;
-            }
-            catch (Exception ex)
-            {
-                return true;
-            }
-        }
+              {
+                  // If your backend has a Authenication api make the request here : )
+                  return true;
+              }
+              catch (Exception ex)
+              {
+                  return true;
+              }
 
+            /*
+            If you use https://github.com/SkyAlumny/LawinServerV2-Modified
+            using (HttpClient client = new HttpClient())
+            {
+                try
+                {
+                    HttpResponseMessage response = client.GetAsync("http://backendip:backendport/api/accountcheck?email=").Result;
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                catch (HttpRequestException e)
+                {
+                    return false;
+                }
+            }
+            */
+
+        }
 
         private void LoginButton_Clicked(object sender, EventArgs e)
         {
@@ -124,7 +150,7 @@ namespace tetstentfrylauncher
 
 
 
-            if (LoginCheck())
+            if (LoginCheck(Username.Text, Password.Text))
             {
                 loginButton.Text = "Logging in...";
 
@@ -144,10 +170,9 @@ namespace tetstentfrylauncher
 
             else
             {
-                if (!LoginCheck())
-                {
+               
                     MessageBox.Show("Login Failed", "Invaild", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                
             }
 
 
