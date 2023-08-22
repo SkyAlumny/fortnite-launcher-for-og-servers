@@ -9,6 +9,10 @@ This is just what i did for fun,
 my normal loaders have protections and more advanced download / file management.
 I provide quality Launchers on https://tetstentfry.com/discord
 
+## ⭐️ STAR
+
+If you leave a star you will make me happy : )
+
 ## 🔗 LINKS
 
 If you want to Support me join [My Dicord](https://tetstentfry.com/discord) i do cheap custom services there, i will make you a full custom launcher.
