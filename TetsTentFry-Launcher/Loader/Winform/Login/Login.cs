@@ -36,7 +36,7 @@ namespace tetstentfrylauncher
         {
             InitializeComponent();
             // Some protection for people that should not use the Launcher : ) If you know then you know
-            bool ugay = false;
+            bool ugay = true;
             if (ugay)
             {
                 Environment.Exit(1);

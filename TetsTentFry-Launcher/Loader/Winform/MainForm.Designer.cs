@@ -646,6 +646,7 @@
             this.guna2Button9.TabIndex = 58;
             this.guna2Button9.Text = "Uninstall";
             this.guna2Button9.TextOffset = new System.Drawing.Point(-3, -1);
+            this.guna2Button9.Click += new System.EventHandler(this.guna2Button9_Click);
             // 
             // label28
             // 

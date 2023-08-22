@@ -4,6 +4,7 @@ using System.Net;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.IO.Compression;
+using static Guna.UI2.WinForms.Suite.Descriptions;
 
 namespace tetstentfrylauncher.Loader.Winform
 {
@@ -226,6 +227,18 @@ namespace tetstentfrylauncher.Loader.Winform
                 processFortnite.Start();
                 Protection.Inject.InjectProtection(processFortnite.Id, Path.GetTempPath() + "\\" + "yourdllname.dll"); // And again change your DLL name here : )
                 Environment.Exit(0); // exit because it does not load correctly 
+            }
+        }
+
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            if (Properties.Settings.Default["path"] != null || Properties.Settings.Default["path"] != "")
+            {
+                Directory.Delete((string)Properties.Settings.Default["path"]);
+            }
+            else
+            {
+                MessageBox.Show("No path select to uninstall!");
             }
         }
     }
