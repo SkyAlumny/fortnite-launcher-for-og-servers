@@ -37,7 +37,7 @@ MainForm.cs line 7 | at "changing soon" add the FortniteLauncher.exe i have incl
 
 ## Open a issue if you have suggestions, find bugs or anything else!
 
-## 🎥 Inbuild Register Website showcase (no css included)
+## 🎥 Launcher Showcase
 
 https://github.com/SkyAlumny/fortnite-launcher-for-og-servers/assets/72314825/d7565940-7629-4514-97be-3971d9ccba2d
 
