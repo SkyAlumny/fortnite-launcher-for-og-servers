@@ -36,3 +36,8 @@ MainForm.cs line 7 | at "changing soon" add the FortniteLauncher.exe i have incl
 > The UI is made with Guna.UI Guna.UI2 and Siticone.UI. If you dont have the dlls check the resource folder and add the dll to your refrences
 
 ## Open a issue if you have suggestions, find bugs or anything else!
+
+## 🎥 Inbuild Register Website showcase (no css included)
+
+https://github.com/SkyAlumny/fortnite-launcher-for-og-servers/assets/72314825/d7565940-7629-4514-97be-3971d9ccba2d
+
