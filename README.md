@@ -5,13 +5,30 @@ A Fortnite Launcher that is made to Launch any Fortnite Version and connect to l
 This project is under the "MIT LICENSE", you are allow to use this project for anything but please credit me the Author. You will make my happy : ) If you use dont like credits then please star this repo!
 
 ## ℹ️ INFORMATION
-This project is in development, i will add everything soon so make sure to click on the "Watch" button to see when i publish changes
+This is just what i did for fun,
+my normal loaders have protections and more advanced download / file management.
+I provide quality Launchers on https://tetstentfry.com/discord
 
 ## 🔗 LINKS
 
 If you want to Support me join [My Dicord](https://tetstentfry.com/discord) i do cheap custom services there, i will make you a full custom launcher.
 
-## DOCS
+## DOCS / SETUP
 
-Since the project is still in development i cant really provide you any docs yet but i will once i publish all the files to this repo
+Mainform.cs line 100 | Change the link to your download link for fortnite (direct link)
 
+Mainform.cs line 190 | Change the Link to your DLL that redirects to your Fortnite Server (Direct link) and change the dll name
+
+Mainform.cs line 227 | Change the name to your DLL name
+
+SuccessfullyLoggedIn_MSGBOX.cs line 41 | Change how many secounds until load the MainForm
+
+Login.cs line 105 | if you have a api that checks if the account exist / password is right you can just use the already given function
+
+Login.cs line 160 | change it to your Discord link or Website
+
+Login.cs line 19-21 | change the text there, the text is in the code so it can be animated
+
+The UI is made with Guna.UI Guna.UI2 and Siticone.UI. If you dont have the dlls check the resource folder and add the dll to your refrences
+
+## Open a issue if you have suggestions, find bugs or anything else!
