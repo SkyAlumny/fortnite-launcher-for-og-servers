@@ -29,6 +29,11 @@ Login.cs line 160 | change it to your Discord link or Website
 
 Login.cs line 19-21 | change the text there, the text is in the code so it can be animated
 
+MainForm.cs line 185 | at "changing soon" add the FortniteClient-Win64-Shipping_BE.exe i have included in the Start Folder
+
+MainForm.cs line 7 | at "changing soon" add the FortniteLauncher.exe i have included in the Start Folder
+
+
 The UI is made with Guna.UI Guna.UI2 and Siticone.UI. If you dont have the dlls check the resource folder and add the dll to your refrences
 
 ## Open a issue if you have suggestions, find bugs or anything else!
