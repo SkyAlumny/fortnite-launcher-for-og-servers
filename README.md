@@ -1,6 +1,9 @@
 ## Fortnite Launcher for Old Fortnite Builds
 A Fortnite Launcher that is made to Launch any Fortnite Version and connect to lobby backend server with Account Login, Build Download, Injector, UI, Discord System and much more 
 
+## 💎 For Customs Launcher
+DM me on discord https://discord.gg/XdPfsfYbbq
+
 ## 📄 LICENSE
 This project is under the "MIT LICENSE", you are allow to use this project for anything but please credit me the Author. You will make my happy : ) If you use dont like credits then please star this repo!
 
