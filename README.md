@@ -50,4 +50,5 @@ The Launcher is not crashing, it has a idiot protection. You can remove it in th
 
 https://github.com/SkyAlumny/fortnite-launcher-for-og-servers/assets/72314825/d7565940-7629-4514-97be-3971d9ccba2d
 
+(This is pretty much outdated/No support for this project)
 (This Project is not supported anymore)
