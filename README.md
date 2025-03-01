@@ -42,7 +42,6 @@ MainForm.cs line 7 | at "changing soon" add the FortniteLauncher.exe i have incl
 ```
 Dont forget to Change the Build to x64
 
-
 > The UI is made with Guna.UI Guna.UI2 and Siticone.UI. If you dont have the dlls check the resource folder and add the dll to your refrences
 
 The Launcher is not crashing, it has a idiot protection. You can remove it in the code if you are not a idiot 
